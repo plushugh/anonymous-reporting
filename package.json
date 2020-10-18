@@ -1,0 +1,39 @@
+{
+  "name": "anonymous-reporting",
+  "displayName": "Anonymous Reporting",
+  "version": "0.0.1",
+  "description": "Anonymously report people in schools.",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/rfls/anonymous-reporting"
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "material-ui"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Hugh He",
+      "email": "plushugh@gmail.com",
+      "url": "gitlab.com/plushugh"
+    }
+  ],
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --experimental-scope-hoisting index.html"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@sentry/react": "^5.26.0",
+    "@sentry/tracing": "^5.26.0",
+    "i18next": "^19.8.2",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.7.3",
+    "react-router-dom": "^5.2.0"
+  }
+}
