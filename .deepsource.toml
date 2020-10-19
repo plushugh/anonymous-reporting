@@ -9,8 +9,8 @@ enabled = true
   [analyzers.meta]
   environment = ["browser"]
   plugins = ["react"]
-  style_guide = "standard"
+  style_guide = "airbnb"
 
 [[transformers]]
-name = "standardjs"
+name = "prettier"
 enabled = true
