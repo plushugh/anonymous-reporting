@@ -7,7 +7,11 @@ enabled = true
   [analyzers.meta]
   environment = ["browser"]
   plugins = ["react"]
-  style_guide = "standard"
+  style_guide = "google"
+
+[[transformers]]
+name = "prettier"
+enabled = true
 
 [[transformers]]
 name = "standardjs"
