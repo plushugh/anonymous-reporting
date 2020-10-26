@@ -12,3 +12,5 @@ dist
 .vscode
 *.swp
 *.swo
+
+.parcel-cache
