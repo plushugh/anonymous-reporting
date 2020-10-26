@@ -12,4 +12,4 @@ const ElevateOnScroll = ({ children }) => {
   });
 };
 
-export default ElevateOnScroll;
+export { ElevateOnScroll };
