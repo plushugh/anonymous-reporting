@@ -1,7 +1,5 @@
 version = 1
 
-test_patterns = ["**/*.test.js"]
-
 [[analyzers]]
 name = "javascript"
 enabled = true
@@ -9,8 +7,8 @@ enabled = true
   [analyzers.meta]
   environment = ["browser"]
   plugins = ["react"]
-  style_guide = "airbnb"
+  style_guide = "standard"
 
 [[transformers]]
-name = "prettier"
+name = "standardjs"
 enabled = true
