@@ -30,7 +30,7 @@
     "@sentry/react": "^5.26.0",
     "@sentry/tracing": "^5.26.0",
     "i18next": "^19.8.2",
-    "parcel": "^2.0.0-nightly.439",
+    "parcel": "^2.0.0-nightly.465",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-i18next": "^11.7.3",
