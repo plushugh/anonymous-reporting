@@ -1,0 +1,106 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: parcel
+    versions:
+    - 2.0.0-nightly.554
+    - 2.0.0-nightly.560
+    - 2.0.0-nightly.562
+    - 2.0.0-nightly.566
+    - 2.0.0-nightly.570
+    - 2.0.0-nightly.573
+    - 2.0.0-nightly.574
+    - 2.0.0-nightly.577
+    - 2.0.0-nightly.579
+    - 2.0.0-nightly.585
+    - 2.0.0-nightly.596
+    - 2.0.0-nightly.597
+    - 2.0.0-nightly.598
+    - 2.0.0-nightly.600
+    - 2.0.0-nightly.605
+    - 2.0.0-nightly.606
+    - 2.0.0-nightly.607
+    - 2.0.0-nightly.608
+    - 2.0.0-nightly.609
+    - 2.0.0-nightly.610
+    - 2.0.0-nightly.614
+    - 2.0.0-nightly.615
+    - 2.0.0-nightly.619
+    - 2.0.0-nightly.620
+    - 2.0.0-nightly.623
+    - 2.0.0-nightly.626
+    - 2.0.0-nightly.627
+    - 2.0.0-nightly.628
+    - 2.0.0-nightly.630
+    - 2.0.0-nightly.631
+    - 2.0.0-nightly.632
+    - 2.0.0-nightly.634
+    - 2.0.0-nightly.635
+    - 2.0.0-nightly.636
+    - 2.0.0-nightly.637
+    - 2.0.0-nightly.639
+    - 2.0.0-nightly.640
+    - 2.0.0-nightly.641
+    - 2.0.0-nightly.643
+    - 2.0.0-nightly.644
+    - 2.0.0-nightly.646
+  - dependency-name: react-i18next
+    versions:
+    - 11.8.10
+    - 11.8.12
+    - 11.8.13
+    - 11.8.14
+    - 11.8.5
+    - 11.8.6
+    - 11.8.7
+    - 11.8.8
+    - 11.8.9
+  - dependency-name: "@sentry/tracing"
+    versions:
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.1.0
+    - 6.2.0
+    - 6.2.1
+    - 6.2.2
+    - 6.2.3
+    - 6.2.4
+    - 6.2.5
+    - 6.3.0
+    - 6.3.1
+  - dependency-name: "@sentry/react"
+    versions:
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.1.0
+    - 6.2.0
+    - 6.2.1
+    - 6.2.2
+    - 6.2.3
+    - 6.2.4
+    - 6.2.5
+    - 6.3.0
+    - 6.3.1
+  - dependency-name: i18next
+    versions:
+    - 19.8.5
+    - 19.8.6
+    - 19.8.7
+    - 19.8.8
+    - 19.8.9
+    - 19.9.0
+    - 19.9.1
+    - 19.9.2
+    - 20.0.0
+    - 20.1.0
+    - 20.2.1
+  - dependency-name: "@material-ui/core"
+    versions:
+    - 4.11.3
